@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/debug.css" />
+  </head>
+  <body>
+    <div class="header">
+      <button class="menu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <h1 class="topHeaderText">CarPricePredictor</h1>
+      <img class="logo" src="assets/images/logo.jpg" alt="hier muss ein logo hin" />
+    </div>
+    <div class="bigContainer">
+      <div class="upperLeftContainer">
+        <div>
+          <ol>
+            <li>
+              Entweder du lädst ein Bild über die Upload-Funktion hoch oder du machst direkt ein Foto des zu
+              bestimmenden Autos. Für eine genaue Preisbestimmung kannst du das Baujahr und den Kilometerstand des Autos
+              zusätzlich eingeben.
+            </li>
+            <li>Was danach passiert ist „Magic“</li>
+            <li>
+              Schau dir das erkannte Automodell an und den aktuellen Wert des Autos inklusive einer Prognose für die
+              nächsten Jahre.
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="upperRightContainer">
+        <div id="webcam_wrapper">
+          <div id="webcam_preview"></div>
+          <img id="webcam_snap" class="hidden" />
+        </div>
+        <button id="webcam_button" onclick="enable_webcam()">Webcam aktivieren</button>
+        <input type="file" onchange="previewFile()" />
+        <button>Predict</button>
+      </div>
+      <div class="lowerLeftContainer">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos magni et dolorem architecto neque hic
+          unde deleniti! Nam vel sequi deserunt, adipisci quaerat atque magnam, harum veritatis, voluptas obcaecati
+          alias!
+        </p>
+      </div>
+      <div class="lowerRightContainer">
+        <canvas></canvas>
+      </div>
+    </div>
+    <script src="assets/js/webcam.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
