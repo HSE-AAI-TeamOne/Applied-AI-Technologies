@@ -1,6 +1,6 @@
 # CarPricePredictor - Predimobili
 
-![screenshot](./img/logo.png)
+![screenshot](./img/logo.JPG)
 
 ## 1. Abstract
 
@@ -11,7 +11,7 @@ Read our story on hackster: https://www.hackster.io/hse-team-one
 
 ## 2. Project 
 
-![screenshot](./img/website.png)
+![screenshot](./img/website.PNG)
 
 source of inspiration
 https://github.com/foamliu/Car-Recognition
