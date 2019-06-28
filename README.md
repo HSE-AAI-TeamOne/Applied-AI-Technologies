@@ -1,7 +1,5 @@
 # CarPricePredictor - Predimobili
 
-![screenshot](./img/logo.PNG)
-
 ## 1. Abstract
 
 This project is part of the lecture Applied Artificial Intelligence at the University of Applied Sciences Esslingen.
