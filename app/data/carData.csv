@@ -327,7 +327,7 @@ Ford Expedition;56883
 Ford Explorer;38451
 Ford Explorer Sport;24422
 Ford Explorer Sport Trac;30261
-Ford F-150;40747
+Ford F-150 Regular Cab;40747
 Ford F-150 Heritage;24146
 Ford F-150 SVT Lightning;5353
 Ford F-250;3280
@@ -630,7 +630,7 @@ Mercedes-Benz AMG GT;124100
 Mercedes-Benz B-Class Electric Drive;40933
 Mercedes-Benz C36 AMG;3960
 Mercedes-Benz C43 AMG;4957
-Mercedes-Benz C-Class;49298
+Mercedes-Benz C-Class Sedan;49298
 Mercedes-Benz CLA-Class;38428
 Mercedes-Benz CL-Class;160483
 Mercedes-Benz CLK-Class;65133
@@ -825,7 +825,7 @@ Suzuki Reno;14647
 Suzuki Samurai;2000
 Suzuki Sidekick;2022
 Suzuki Swift;6642
-Suzuki SX4;17609
+Suzuki SX4 Hatchback;17609
 Suzuki Verona;19221
 Suzuki Vitara;17474
 Suzuki X-90;2000
