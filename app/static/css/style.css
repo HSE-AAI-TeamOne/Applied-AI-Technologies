@@ -17,7 +17,7 @@ html {
   margin: 0;
   padding: 0;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-color: var(--backGroundColor);
 }
 
@@ -101,6 +101,9 @@ html {
   height: 66px;
   width: 101px;
   float: right;
+  padding-bottom: 7px;
+  margin-right: 7px;
+
   /*transform: rotate(270deg);*/
 }
 
@@ -108,7 +111,7 @@ html {
   font-weight: 300;
   position: absolute;
   left: 50%;
-  height: 100%;
+  height: 10%;
   font-size: calc(10px+1vh);
   width: fit-content;
   width: -moz-fit-content;
@@ -117,7 +120,7 @@ html {
 
 .gridInterfaceItem1 > .logo {
   padding-top: 10px;
-  padding-right: 10px;
+  padding-right: 0px;
 }
 
 h1 {
@@ -126,6 +129,7 @@ h1 {
 
 div > ol > li {
   font-size: 20px;
+  max-width: 98%;
 }
 
 #carType {
@@ -185,10 +189,11 @@ div > ol > li {
 }
 
 #output {
-  margin-left: auto;
+  margin-left: 0;
   margin-right: auto;
   width: 50%;
 }
+
 [type="file"] {
   height: 0;
   overflow: hidden;
@@ -213,50 +218,51 @@ div > ol > li {
 }
 
 .fahrzeugwertImg {
-  width: 100%;
+  width: auto;
   height: auto;
+  max-height: 97%;
+  max-width: 97%;
 }
-
 
 /* Responsivität */
 @media (max-width: 1166px) {
-    .gridContainer {
-        float: left;
-        display: grid;
-        grid-template-rows: 7vh 1vh 40vh 50vh 30vh 50vh;
-        grid-template-columns: 100%;
-        justify-content: center;
-      }
-      
-    .upperLeftContainer {
-      grid-column-start: 1;
-      grid-column-end: 2;
-      grid-row-start: 3;
-      grid-row-end: 4;
-      padding: 3% 3% 3% 3%; /* top, right, bottom, left */
-    }
+  .gridContainer {
+    float: left;
+    display: grid;
+    grid-template-rows: 7vh 3px auto auto auto auto;
+    grid-template-columns: 100%;
+    justify-content: center;
+  }
 
-    .upperRightContainer {
-      grid-column-start: 1;
-      grid-column-end: 2;
-      grid-row-start: 4;
-      grid-row-end: 5;
-      padding: 3% 3% 3% 3%; /* top, right, bottom, left */
-    }
+  .upperLeftContainer {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding: 3% 3% 3% 3%; /* top, right, bottom, left */
+  }
 
-    .lowerLeftContainer {
-      grid-column-start: 1;
-      grid-column-end: 2;
-      grid-row-start: 5;
-      grid-row-end: 6;
-      padding: 3% 3% 3% 3%; /* top, right, bottom, left */
-    }
+  .upperRightContainer {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    padding: 3% 3% 3% 3%; /* top, right, bottom, left */
+  }
 
-    .lowerRightContainer {
-      grid-column-start: 1;
-      grid-column-end: 2;
-      grid-row-start: 6;
-      grid-row-end: 7;
-      padding: 3% 3% 3% 3%; /* top, right, bottom, left */
-    }
+  .lowerLeftContainer {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    padding: 3% 3% 0 3%; /* top, right, bottom, left */
+  }
+
+  .lowerRightContainer {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    padding: 3% 3% 3% 3%; /* top, right, bottom, left */
+  }
 }
